@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XButton">
+        <attr name="flatButtonColor" format="color"/>
+        <attr name="tmButtonRadius" format="dimension" />
+        <attr name="xButtonTextColor" format="color"/>
+        <attr name="xButtonEnableHaptic" format="boolean"/>
+        <attr name="xButtonPressChangeColor" format="boolean"/>
+        <attr name="xPlatformAppearance" />
+        <attr name="xFlatButtonAppearance" format="reference" />
+        <attr name="tmButtonAppearance" format="reference" />
+    </declare-styleable>
+    <attr name="xPlatformAppearance" format="reference" />
+
+
+    <declare-styleable name="TmButtonAppearance">
+        <attr name="tmStartColor" />
+        <attr name="tmButtonEndColor" />
+        <attr name="tmButtonBorder1StartColor" />
+        <attr name="tmButtonBorder2StartColor" />
+        <attr name="tmButtonBorder1EndColor" />
+        <attr name="tmButtonBorder2EndColor" />
+        <attr name="tmButtonPressedDarkShadowColor" />
+    </declare-styleable>
+
+    <attr name="tmStartColor" format="color" />
+    <attr name="tmButtonEndColor" format="color" />
+    <attr name="tmButtonBorder1StartColor" format="color" />
+    <attr name="tmButtonBorder2StartColor" format="color" />
+    <attr name="tmButtonBorder1EndColor" format="color" />
+    <attr name="tmButtonBorder2EndColor" format="color" />
+    <attr name="tmButtonPressedDarkShadowColor" format="color" />
+
+
+
+</resources>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="XButton">
-        <attr name="flatButtonColor" format="color"/>
+        <attr name="flatButtonColor" format="color" />
         <attr name="tmButtonRadius" format="dimension" />
-        <attr name="xButtonTextColor" format="color"/>
-        <attr name="xButtonEnableHaptic" format="boolean"/>
-        <attr name="xButtonPressChangeColor" format="boolean"/>
+        <attr name="xButtonTextColor" format="color" />
+        <attr name="xButtonEnableHaptic" format="boolean" />
+        <attr name="xButtonPressChangeColor" format="boolean" />
         <attr name="xPlatformAppearance" />
         <attr name="xFlatButtonAppearance" format="reference" />
         <attr name="tmButtonAppearance" format="reference" />
@@ -31,6 +31,21 @@
     <attr name="tmButtonBorder2EndColor" format="color" />
     <attr name="tmButtonPressedDarkShadowColor" format="color" />
 
+<!--for price text view-->
+    <declare-styleable name="PriceTextView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="secondaryTextColor" format="color|reference" />
+        <attr name="text" format="string" />
+        <attr name="textPercentage" format="integer" />
+        <attr name="suffixSymbol" format="string" />
+        <attr name="prefixSymbol" format="string"/>
+        <attr name="textStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+    </declare-styleable>
 
 
 </resources>
